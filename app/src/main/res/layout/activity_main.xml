@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
-    android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingRight="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <EditText
         android:id="@+id/asignatura1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="@string/nota1">
+        android:hint="@string/nota1">
 
     </EditText>
 
@@ -21,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="@string/nota2"
+        android:hint="@string/nota2"
         />
 
     <EditText
@@ -29,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:text="@string/nota3"
+        android:hint="@string/nota3"
         />
 
 
@@ -42,9 +41,9 @@
         android:id="@+id/bt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calcular"
-        android:onClick="calcular"
-        android:hint="@string/calcular"/>
+        android:text="@string/calcular"
+        android:onClick="calcular2"
+        />
 
     <TextView
         android:id="@+id/tv1"
