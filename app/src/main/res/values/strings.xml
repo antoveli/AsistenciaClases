@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsistenciaClases</string>
+    <string name="nota3">ingrese nota3</string>
+    <string name="nota2">ingrese nota2</string>
+    <string name="nota1">ingrese nota1</string>
+    <string name="calcular">ingrese nota1</string>
+</resources>
